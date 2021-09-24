@@ -8,12 +8,6 @@ function myMonitorsFunction(arr) {
     for(var i = 0; i < newMonitorsList.length; i++) {
         monitorsList.push([newMonitorsList[i], i + 1]);
     }
-
-
-    /*
-    monitorsList = newMonitorsList;
-    monitorsList.splice(1, 0, "1")
-    monitorsList += monitorsList.slice(0, 2);*/
     return monitorsList;
     // Only change code above this line
 }
